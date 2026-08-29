@@ -1,0 +1,10 @@
+
+  +--------------------------------------------------------------+
+  |                                                              |
+  |          B A N C O   X Y Z   -   M I G R A C I O N           |
+  |               de procesos batch legacy a Spring Batch        |
+  |                                                              |
+  +--------------------------------------------------------------+
+  Spring Boot ${spring-boot.formatted-version}
+  Desarrollo Backend III (PBY2203) :: Duoc UC
+

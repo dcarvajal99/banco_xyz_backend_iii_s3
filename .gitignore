@@ -1,0 +1,20 @@
+# Build
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# Sistema operativo
+.DS_Store
+
+# Logs de build (la evidencia de ejecucion SI se versiona: es entregable de la actividad)
+*.log
+!evidencias/logs/*.log

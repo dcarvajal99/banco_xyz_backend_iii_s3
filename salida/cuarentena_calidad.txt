@@ -1,0 +1,29 @@
+AVISO DE CUARENTENA DE CALIDAD DE DATOS - BANCO XYZ
+======================================================================
+Job              : reporteTransaccionesDiariasJob
+jobExecutionId   : 10
+jobInstanceId    : 9
+Fecha            : 2026-08-28 23:43:51
+Veredicto        : CALIDAD_INACEPTABLE
+Tasa de omision  : 0.0%
+Umbral de alerta : 10.0%
+Umbral de rechazo: 30.0%
+
+MOTIVO
+----------------------------------------------------------------------
+Cobertura insuficiente: se esperaban al menos 1 filas por archivo y no llegaron en procesarTransaccionesStep (0 filas). El archivo de origen puede venir truncado.
+
+DETALLE POR PASO
+----------------------------------------------------------------------
+procesarTransaccionesStep                     leidas=0      escritas=0      omitidas=0      (sin datos)
+
+ACCION REQUERIDA
+----------------------------------------------------------------------
+El reporte NO se publico. La corrida termina en fallo a proposito, para que
+la JobInstance quede reanudable.
+1. Revisar rechazados_<job>.csv y la tabla registro_rechazado.
+2. Verificar que el archivo de origen llego completo y corregirlo en la
+   carpeta de entrada.
+3. Relanzar con la MISMA etiqueta de corrida para reanudar esta instancia:
+      java -jar banco-xyz-batch-1.0.0.jar --job=<alias> --dataset=<carpeta> \
+           --corrida=2026-08-28T23:43:50.942378

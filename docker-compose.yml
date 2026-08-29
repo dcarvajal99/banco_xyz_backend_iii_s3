@@ -1,0 +1,23 @@
+services:
+  banco-xyz-db-s3:
+    image: postgres:17-alpine
+    container_name: banco-xyz-db-s3
+    environment:
+      POSTGRES_DB: banco_xyz
+      POSTGRES_USER: banco
+      POSTGRES_PASSWORD: banco123
+    # 5435 en el host: 5432 suele estar ocupado por una instalacion local de PostgreSQL,
+    # 5433 lo usa el contenedor de la semana 1 y 5434 el de la semana 2. Cada entrega corre
+    # contra su propia base para no pisar la evidencia de la anterior.
+    ports:
+      - "5435:5432"
+    volumes:
+      - banco-xyz-datos-s3:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U banco -d banco_xyz"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  banco-xyz-datos-s3:
