@@ -2,6 +2,7 @@ package com.bancoxyz.config;
 
 import com.bancoxyz.batch.decider.DecisorCalidadDeDatos;
 import com.bancoxyz.batch.listener.ResumenJobListener;
+import com.bancoxyz.batch.processor.RegistroDeDuplicados;
 import com.bancoxyz.common.Constantes;
 import org.springframework.batch.core.ExitStatus;
 import org.springframework.batch.core.Job;
@@ -49,6 +50,13 @@ public class ArmadorDeJobs {
 
     private final JobRepository jobRepository;
     private final ResumenJobListener resumenJobListener;
+    /**
+     * Se registra como listener del Job para que libere su estado al terminar. Sin esta
+     * suscripcion su {@code afterJob} no se llama nunca y el mapa de deduplicacion crece
+     * durante toda la vida del proceso: una corrida por linea de comandos no lo notaria, pero
+     * un contenedor que ejecute muchos Jobs si.
+     */
+    private final RegistroDeDuplicados registroDeDuplicados;
     private final DecisorCalidadDeDatos decisor;
     private final Step limpiezaDeReintentoStep;
     private final Step exportarRechazadosStep;
@@ -57,6 +65,7 @@ public class ArmadorDeJobs {
 
     public ArmadorDeJobs(JobRepository jobRepository,
                          ResumenJobListener resumenJobListener,
+                         RegistroDeDuplicados registroDeDuplicados,
                          DecisorCalidadDeDatos decisor,
                          @Qualifier(Constantes.STEP_LIMPIEZA) Step limpiezaDeReintentoStep,
                          @Qualifier(Constantes.STEP_EXPORTAR_RECHAZADOS) Step exportarRechazadosStep,
@@ -64,6 +73,7 @@ public class ArmadorDeJobs {
                          @Qualifier(Constantes.STEP_CUARENTENA_CORTE) Step cuarentenaCorteStep) {
         this.jobRepository = jobRepository;
         this.resumenJobListener = resumenJobListener;
+        this.registroDeDuplicados = registroDeDuplicados;
         this.decisor = decisor;
         this.limpiezaDeReintentoStep = limpiezaDeReintentoStep;
         this.exportarRechazadosStep = exportarRechazadosStep;
@@ -79,6 +89,7 @@ public class ArmadorDeJobs {
     public Job jobDeMigracion(String nombre, Step migrar, Step publicar) {
         return new JobBuilder(nombre, jobRepository)
                 .listener(resumenJobListener)
+                .listener(registroDeDuplicados)
                 .start(limpiezaDeReintentoStep)
                 .next(migrar)
                 .next(exportarRechazadosStep)

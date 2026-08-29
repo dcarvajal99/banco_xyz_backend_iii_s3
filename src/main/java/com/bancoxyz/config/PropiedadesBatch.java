@@ -45,20 +45,25 @@ public class PropiedadesBatch {
      * {@code evidencias/logs/09_medicion_estrategias.log}). Baja la migracion de 2.734 ms
      * —la mejor corrida secuencial de todo el barrido— a 1.094 ms, un 60 % menos.</p>
      *
-     * <p>La curva se aplana entre 8 y 12 y <b>empeora</b> con 20: la maquina tiene 10 nucleos y
-     * PostgreSQL corre en ella, de modo que pasado ese punto las particiones no encuentran
-     * nucleo libre y solo agregan costo —una StepExecution, una transaccion y un lector por
-     * cada una— sin nada que ganar. De ahi que el valor por defecto sea 8 y no "cuantas mas
-     * mejor".</p>
+     * <p>Con tantos hilos como particiones, el tiempo es <b>el mismo dentro del ruido entre 8 y
+     * 16</b> y solo empeora en 20: no hay un pico, hay una meseta. Se eligio 8 justamente por eso:
+     * da el mismo tiempo que 12 o 16 con la mitad de hilos y la mitad de conexiones a la base, y a
+     * igual rendimiento la configuracion que consume menos recursos es la mejor.</p>
      */
     private int particiones = 8;
 
     /**
-     * Hilos que ejecutan las particiones en paralelo. Conviene que sea igual o mayor que
-     * {@link #particiones}: si fuera menor, algunas particiones esperarian turno y el
-     * particionado se volveria parcialmente secuencial sin que se note en la configuracion.
+     * Hilos que ejecutan las particiones en paralelo. Con {@code 0} —el valor por defecto—
+     * sigue automaticamente a {@link #particiones}.
+     *
+     * <p>Que sean dos propiedades independientes es una trampa facil de pisar: subir
+     * {@code particiones} a 20 sin tocar esta dejaria 20 tramos corriendo de a 8, y el
+     * particionado seria en parte secuencial <em>sin que nada lo indique</em>. Una medicion
+     * hecha asi mediria otra cosa de la que dice medir. Por eso el valor por defecto es
+     * "el mismo numero que particiones" y no una cifra fija, y por eso
+     * {@code ConfiguracionEjecutores} avisa en el log cuando se fija por debajo a proposito.</p>
      */
-    private int hilosDeParticiones = 8;
+    private int hilosDeParticiones = 0;
 
     /**
      * Hilos que procesan chunks del mismo Step en paralelo cuando la estrategia es
@@ -171,8 +176,9 @@ public class PropiedadesBatch {
         this.particiones = particiones;
     }
 
+    /** @return los hilos configurados o, si no se fijo ninguno, tantos como particiones. */
     public int getHilosDeParticiones() {
-        return hilosDeParticiones;
+        return hilosDeParticiones > 0 ? hilosDeParticiones : particiones;
     }
 
     public void setHilosDeParticiones(int hilosDeParticiones) {

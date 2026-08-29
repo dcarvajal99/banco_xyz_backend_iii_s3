@@ -3,7 +3,7 @@ AVISO DE CUARENTENA DE CALIDAD DE DATOS - BANCO XYZ
 Job              : reporteTransaccionesDiariasJob
 jobExecutionId   : 10
 jobInstanceId    : 9
-Fecha            : 2026-08-28 23:43:51
+Fecha            : 2026-08-29 00:08:41
 Veredicto        : CALIDAD_INACEPTABLE
 Tasa de omision  : 0.0%
 Umbral de alerta : 10.0%
@@ -26,4 +26,4 @@ la JobInstance quede reanudable.
    carpeta de entrada.
 3. Relanzar con la MISMA etiqueta de corrida para reanudar esta instancia:
       java -jar banco-xyz-batch-1.0.0.jar --job=<alias> --dataset=<carpeta> \
-           --corrida=2026-08-28T23:43:50.942378
+           --corrida=2026-08-29T00:08:40.914315

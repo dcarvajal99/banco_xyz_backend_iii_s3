@@ -44,7 +44,7 @@ muestras publicadas— está en `evidencias/logs/09_medicion_estrategias.log` y 
 | **Deduplicación** | campos del `ItemProcessor` `@StepScope` | **registro compartido** por toda la corrida |
 | **Métricas** | campos del listener | **por `StepExecution`**, porque el Step corre N veces a la vez |
 | **Medición** | chunk × hilos, contra la secuencial del mismo chunk | 3 estrategias × parámetros, contra **la mejor** secuencial |
-| **Pruebas** | 135 | **140** (95,5 % de cobertura) |
+| **Pruebas** | 135 | **140** (95,4 % de cobertura) |
 
 ---
 
@@ -195,7 +195,7 @@ el barrido.**
 | Particionado, chunk 100, 6 particiones | 1.238 ms | +54,7 % |
 | Particionado, chunk 100, 12 particiones | 1.286 ms | +53,0 % |
 | Particionado, chunk 100, 4 particiones | 1.370 ms | +49,9 % |
-| Particionado, chunk 100, **20 particiones** | 1.454 ms | +46,8 % ← *empeora* |
+| Particionado, chunk 100, 20 particiones | 1.454 ms | +46,8 % |
 | Particionado, chunk 100, 2 particiones | 1.770 ms | +35,3 % |
 | Multihilo, chunk 100, 3 hilos | 2.554 ms | +6,6 % |
 | Secuencial, chunk 500 *(mejor secuencial)* | 2.734 ms | — |
@@ -204,11 +204,21 @@ el barrido.**
 Cuatro lecturas:
 
 1. **El particionado gana, y no por poco**: 2,50× contra 1,07× del multihilo.
-2. **Hay un límite y se ve**: la curva mejora hasta 8, se aplana entre 8 y 12 y **empeora con 20**.
-   La máquina tiene 10 núcleos y PostgreSQL corre en ella, así que pasado ese punto las
-   particiones no encuentran núcleo libre y solo agregan costo —una `StepExecution`, una
-   transacción y un lector por cada una—. De ahí que el valor por defecto sea **8** y no
-   «cuantas más mejor».
+2. **El óptimo es una meseta, no un pico.** Un segundo barrido, dando siempre tantos hilos como
+   particiones, muestra que entre 8 y 16 el tiempo es el mismo dentro del ruido (1.193–1.252 ms) y
+   solo empeora en 20. Se eligió **8** precisamente por eso: da el mismo tiempo que 12 o 16 con la
+   mitad de hilos y la mitad de conexiones a la base, y a igual rendimiento gana la configuración
+   que consume menos recursos.
+
+   | Particiones (con hilos para todas) | 8 | 10 | 12 | 16 | 20 |
+   |---|---:|---:|---:|---:|---:|
+   | Mediana | 1.252 ms | 1.224 ms | 1.193 ms | 1.236 ms | 1.340 ms |
+
+   Y una consecuencia práctica: **más particiones que hilos es peor que menos particiones**, porque
+   las sobrantes corren en una segunda oleada. Por eso `banco.batch.hilos-de-particiones` sigue por
+   defecto a `banco.batch.particiones`: dejar las dos propiedades sueltas permite configurar 20
+   tramos corriendo de a 8 sin que nada lo indique, y una medición hecha así mide otra cosa de la
+   que dice medir.
 3. **El chunk y el número de particiones son un solo parámetro**: particionar con chunk 5 queda
    *por debajo* de la mejor secuencial. Elegir uno sin mirar el otro lleva a conclusiones falsas.
 4. **Las tres estrategias migran exactamente lo mismo**: en las 120 corridas del barrido, los tres
@@ -292,7 +302,8 @@ java -jar target/banco-xyz-batch-1.0.0.jar --job=transacciones --dataset=semana_
 | `--dataset` / `--entrada` | `semana_1` | Carpeta con los CSV |
 | `--corrida` | marca de tiempo | Etiqueta; repetirla reanuda la misma instancia |
 | `--banco.batch.estrategia` | `PARTICIONADO` | `SECUENCIAL`, `MULTIHILO`, `PARTICIONADO` |
-| `--banco.batch.particiones` | `8` | `gridSize` |
+| `--banco.batch.particiones` | `8` | `gridSize`; los hilos lo siguen automáticamente |
+| `--banco.batch.hilos-de-particiones` | `0` (= particiones) | Limitar el paralelismo a propósito |
 | `--banco.batch.tamano-chunk` | `5` | Ítems por transacción |
 | `--banco.batch.umbral-rechazo-omision` | `0.30` | Umbral del decisor de calidad |
 
@@ -370,7 +381,7 @@ todas entre 8.676 y 8.762 ms — un desbalance de 1,01×.
 
 ## 10. Pruebas
 
-**140 pruebas, 95,5 % de cobertura de instrucciones** (`./mvnw clean test`).
+**140 pruebas, 95,4 % de cobertura de instrucciones** (`./mvnw clean test`).
 
 | Clase | Qué vigila |
 |---|---|
@@ -399,7 +410,8 @@ todas entre 8.676 y 8.762 ms — un desbalance de 1,01×.
 | Estado del medidor por `StepExecution` | El Step trabajador es un objeto que se ejecuta N veces a la vez |
 | Políticas en el trabajador, `startLimit` en el gestor | Cada una donde de verdad tiene efecto |
 | Las tres estrategias detrás de una propiedad | Comparar exige el mismo jar y el mismo dato; si cada una viviera en una rama, las mediciones no serían comparables |
-| `particiones = 8` | Es el resultado de la medición, y 20 empeora: la máquina tiene 10 núcleos |
+| `particiones = 8` | Es el extremo barato de la meseta 8–16: mismo tiempo, la mitad de hilos y de conexiones |
+| Los hilos siguen a las particiones | Dos propiedades sueltas permiten 20 tramos corriendo de a 8 sin que nada lo indique |
 | Base propia en el puerto 5435 | No pisar la evidencia de las semanas anteriores |
 
 ---
@@ -416,7 +428,7 @@ banco-xyz-batch/
 ├── salida/                   CSV generados + aviso de cuarentena
 └── evidencias/
     ├── logs/                 14 archivos: 11 corridas, la medición, la comparación y el SQL
-    ├── img/                  24 capturas
+    ├── img/                  26 capturas
     └── consultas_evidencia.sql
 ```
 

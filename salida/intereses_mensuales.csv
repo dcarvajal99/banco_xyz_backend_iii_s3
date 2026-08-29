@@ -1,328 +1,328 @@
 cuenta_id,nombre,tipo,edad,saldo_inicial,tasa_mensual,interes,saldo_final,anomalia,observacion
-101,Jane Smith,hipoteca,30,10000.00,0.00900,90.00,10090.00,NO,
 101,Charlie Green,hipoteca,35,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-101,Alice Brown,hipoteca,25,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-101,Diana Prince,prestamo,40,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-101,John Doe,hipoteca,30,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-101,John Doe,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 101,Diana Prince,ahorro,35,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-101,Bob Johnson,hipoteca,30,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 101,Jane Smith,hipoteca,45,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-102,Bob Johnson,hipoteca,35,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-102,Charlie Green,ahorro,40,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-102,Alice Brown,hipoteca,35,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-102,Diana Prince,hipoteca,30,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-102,Alice Brown,hipoteca,30,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-102,Charlie Green,prestamo,35,10000.00,0.01500,150.00,10150.00,NO,
-102,Alice Brown,prestamo,45,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-102,Diana Prince,hipoteca,35,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+101,John Doe,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+101,Jane Smith,hipoteca,30,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+101,Diana Prince,prestamo,40,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+101,John Doe,hipoteca,30,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+101,Alice Brown,hipoteca,25,8000.00,0.00900,72.00,8072.00,NO,
+101,Bob Johnson,hipoteca,30,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+102,Alice Brown,hipoteca,35,5000.00,0.00900,45.00,5045.00,NO,
 102,Jane Smith,prestamo,40,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-103,Diana Prince,prestamo,45,8000.00,0.01500,120.00,8120.00,NO,
-103,Bob Johnson,ahorro,30,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-104,Steve Rogers,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-104,Steve Rogers,hipoteca,25,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-104,Alice Brown,hipoteca,45,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-104,Sin identificar,ahorro,25,10000.00,0.00500,50.00,10050.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
+102,Alice Brown,hipoteca,30,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+102,Bob Johnson,hipoteca,35,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+102,Diana Prince,hipoteca,35,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+102,Diana Prince,hipoteca,30,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+102,Alice Brown,prestamo,45,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+102,Charlie Green,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+102,Charlie Green,ahorro,40,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+103,Diana Prince,prestamo,45,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+103,Bob Johnson,ahorro,30,7000.00,0.00500,35.00,7035.00,NO,
 104,Bob Johnson,prestamo,30,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-104,Bob Johnson,prestamo,25,10000.00,0.01500,150.00,10150.00,NO,
-105,Alice Brown,prestamo,25,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-105,Jane Smith,hipoteca,45,12000.00,0.00900,108.00,12108.00,NO,
+104,Bob Johnson,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,Titular repetido con los mismos datos en otra cuenta
+104,Sin identificar,ahorro,25,10000.00,0.00500,50.00,10050.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
+104,Steve Rogers,hipoteca,25,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+104,Alice Brown,hipoteca,45,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+104,Steve Rogers,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 105,Sin identificar,prestamo,45,10000.00,0.01500,150.00,10150.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
+105,Diana Prince,prestamo,25,10000.00,0.01500,150.00,10150.00,NO,
 105,Steve Rogers,ahorro,35,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-105,Jane Smith,prestamo,40,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-105,Bob Johnson,ahorro,40,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-105,Steve Rogers,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-105,Diana Prince,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 105,Alice Brown,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+105,Bob Johnson,ahorro,40,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+105,Alice Brown,prestamo,25,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+105,Steve Rogers,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+105,Jane Smith,prestamo,40,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+105,Jane Smith,hipoteca,45,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 106,Charlie Green,prestamo,25,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-106,Alice Brown,prestamo,40,8000.00,0.01500,120.00,8120.00,NO,
 106,John Doe,prestamo,35,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-106,Sin identificar,ahorro,30,7000.00,0.00500,35.00,7035.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-106,Steve Rogers,hipoteca,40,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-106,Diana Prince,ahorro,35,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-106,Sin identificar,hipoteca,25,8000.00,0.00900,72.00,8072.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-106,Jane Smith,prestamo,40,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+106,Alice Brown,prestamo,40,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+106,Jane Smith,prestamo,40,12000.00,0.01500,180.00,12180.00,NO,
+106,John Doe,ahorro,35,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+106,Steve Rogers,hipoteca,40,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 106,Sin identificar,ahorro,25,8000.00,0.00500,40.00,8040.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-106,John Doe,ahorro,35,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+106,Diana Prince,ahorro,35,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+106,Sin identificar,ahorro,30,7000.00,0.00500,35.00,7035.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
+106,Sin identificar,hipoteca,25,8000.00,0.00900,72.00,8072.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
 106,Charlie Green,ahorro,35,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-107,Steve Rogers,hipoteca,25,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 107,Diana Prince,hipoteca,25,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-107,Alice Brown,prestamo,40,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-107,Alice Brown,prestamo,45,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-107,John Doe,hipoteca,35,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-107,John Doe,hipoteca,45,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-107,Sin identificar,hipoteca,30,12000.00,0.00900,108.00,12108.00,SI,Titular sin identificar en el archivo legacy
+107,Steve Rogers,hipoteca,25,5000.00,0.00900,45.00,5045.00,NO,
 107,Steve Rogers,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-108,Alice Brown,hipoteca,25,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-108,Alice Brown,ahorro,45,5000.00,0.00500,25.00,5025.00,NO,
-108,Jane Smith,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-108,John Doe,prestamo,25,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-108,Diana Prince,ahorro,35,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+107,John Doe,hipoteca,35,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+107,Alice Brown,prestamo,40,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+107,Sin identificar,hipoteca,30,12000.00,0.00900,108.00,12108.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
+107,John Doe,hipoteca,45,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+107,Alice Brown,prestamo,45,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+108,Alice Brown,ahorro,45,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 108,Alice Brown,hipoteca,35,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-108,John Doe,prestamo,45,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-109,Steve Rogers,prestamo,45,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-109,Charlie Green,hipoteca,45,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-109,John Doe,prestamo,40,7000.00,0.01500,105.00,7105.00,NO,
+108,Diana Prince,ahorro,35,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+108,Alice Brown,hipoteca,25,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+108,John Doe,prestamo,45,8000.00,0.01500,120.00,8120.00,NO,
+108,John Doe,prestamo,25,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+108,Jane Smith,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+109,John Doe,prestamo,40,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 109,John Doe,hipoteca,25,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-109,Alice Brown,hipoteca,40,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+109,Steve Rogers,prestamo,45,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 109,Diana Prince,hipoteca,45,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-110,Alice Brown,hipoteca,25,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-110,Steve Rogers,hipoteca,25,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+109,Charlie Green,hipoteca,45,7000.00,0.00900,63.00,7063.00,NO,
+109,Alice Brown,hipoteca,40,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 110,Bob Johnson,hipoteca,35,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-110,Steve Rogers,prestamo,30,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-110,Charlie Green,hipoteca,45,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-110,Steve Rogers,ahorro,30,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-110,Charlie Green,prestamo,25,10000.00,0.01500,150.00,10150.00,NO,
-110,Jane Smith,ahorro,40,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-111,John Doe,hipoteca,35,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-111,John Doe,hipoteca,40,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+110,Jane Smith,ahorro,40,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+110,Charlie Green,hipoteca,45,7000.00,0.00900,63.00,7063.00,SI,Titular repetido con los mismos datos en otra cuenta
+110,Charlie Green,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+110,Steve Rogers,ahorro,30,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+110,Alice Brown,hipoteca,25,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+110,Steve Rogers,prestamo,30,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+110,Steve Rogers,hipoteca,25,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 111,Steve Rogers,ahorro,35,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-111,John Doe,hipoteca,35,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-111,Alice Brown,prestamo,45,5000.00,0.01500,75.00,5075.00,NO,
 111,Steve Rogers,ahorro,30,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-111,Diana Prince,prestamo,30,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+111,John Doe,hipoteca,35,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+111,Alice Brown,prestamo,45,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+111,John Doe,hipoteca,40,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+111,Diana Prince,prestamo,30,5000.00,0.01500,75.00,5075.00,NO,
+111,John Doe,hipoteca,35,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 112,Bob Johnson,ahorro,25,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+112,Bob Johnson,ahorro,30,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 112,Bob Johnson,hipoteca,25,8000.00,0.00900,72.00,8072.00,NO,
-112,Bob Johnson,ahorro,30,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-112,Steve Rogers,prestamo,30,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-113,Bob Johnson,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-113,John Doe,prestamo,45,8000.00,0.01500,120.00,8120.00,NO,
-113,Alice Brown,hipoteca,35,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-113,John Doe,hipoteca,25,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-113,Jane Smith,hipoteca,45,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-113,Steve Rogers,hipoteca,45,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-113,Alice Brown,prestamo,45,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+112,Steve Rogers,prestamo,30,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 113,Diana Prince,ahorro,35,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-114,Diana Prince,hipoteca,40,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+113,Steve Rogers,hipoteca,45,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+113,Alice Brown,prestamo,45,10000.00,0.01500,150.00,10150.00,NO,
+113,Jane Smith,hipoteca,45,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+113,Bob Johnson,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+113,Alice Brown,hipoteca,35,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+113,John Doe,prestamo,45,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+113,John Doe,hipoteca,25,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 114,Jane Smith,ahorro,35,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+114,Steve Rogers,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+114,Alice Brown,ahorro,35,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+114,Diana Prince,hipoteca,40,12000.00,0.00900,108.00,12108.00,NO,
 114,Sin identificar,ahorro,35,8000.00,0.00500,40.00,8040.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-114,Alice Brown,ahorro,35,7000.00,0.00500,35.00,7035.00,NO,
-114,Steve Rogers,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-115,John Doe,ahorro,35,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-115,Bob Johnson,hipoteca,45,8000.00,0.00900,72.00,8072.00,NO,
+115,Charlie Green,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+115,John Doe,ahorro,35,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+115,Bob Johnson,hipoteca,35,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 115,John Doe,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 115,Steve Rogers,hipoteca,25,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-115,Bob Johnson,hipoteca,35,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-115,Bob Johnson,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-115,Charlie Green,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+115,Bob Johnson,hipoteca,45,8000.00,0.00900,72.00,8072.00,NO,
 115,Alice Brown,hipoteca,40,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-116,John Doe,hipoteca,30,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-116,Steve Rogers,hipoteca,40,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-116,Sin identificar,prestamo,25,12000.00,0.01500,180.00,12180.00,SI,Titular sin identificar en el archivo legacy
-117,Sin identificar,ahorro,45,5000.00,0.00500,25.00,5025.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-117,Diana Prince,prestamo,30,12000.00,0.01500,180.00,12180.00,NO,
+115,Bob Johnson,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+116,Steve Rogers,hipoteca,40,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+116,Sin identificar,prestamo,25,12000.00,0.01500,180.00,12180.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
+116,John Doe,hipoteca,30,7000.00,0.00900,63.00,7063.00,NO,
+117,Sin identificar,ahorro,45,5000.00,0.00500,25.00,5025.00,SI,Titular sin identificar en el archivo legacy
 117,Bob Johnson,ahorro,40,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+117,Diana Prince,prestamo,30,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 118,John Doe,prestamo,40,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-118,Bob Johnson,hipoteca,45,10000.00,0.00900,90.00,10090.00,NO,
-118,Diana Prince,prestamo,40,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+118,Jane Smith,ahorro,35,12000.00,0.00500,60.00,12060.00,NO,
+118,Bob Johnson,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 118,Jane Smith,ahorro,45,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-118,Jane Smith,ahorro,35,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 118,John Doe,prestamo,35,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-119,Sin identificar,prestamo,40,5000.00,0.01500,75.00,5075.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-119,Diana Prince,ahorro,40,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-119,John Doe,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-119,Steve Rogers,prestamo,40,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+118,Diana Prince,prestamo,40,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 119,Charlie Green,hipoteca,35,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 119,Diana Prince,hipoteca,25,10000.00,0.00900,90.00,10090.00,NO,
-120,Steve Rogers,ahorro,30,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-120,Steve Rogers,hipoteca,40,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-120,Jane Smith,hipoteca,45,7000.00,0.00900,63.00,7063.00,NO,
-120,Jane Smith,hipoteca,40,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-120,Jane Smith,prestamo,40,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+119,Sin identificar,prestamo,40,5000.00,0.01500,75.00,5075.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
+119,Steve Rogers,prestamo,40,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+119,John Doe,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+119,Diana Prince,ahorro,40,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 120,John Doe,prestamo,30,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-121,Steve Rogers,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+120,Jane Smith,hipoteca,45,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+120,Jane Smith,prestamo,40,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+120,Steve Rogers,hipoteca,40,5000.00,0.00900,45.00,5045.00,SI,Titular repetido con los mismos datos en otra cuenta
+120,Jane Smith,hipoteca,40,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+120,Steve Rogers,ahorro,30,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 121,Bob Johnson,hipoteca,35,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-121,Alice Brown,hipoteca,35,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+121,Diana Prince,prestamo,45,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 121,Bob Johnson,hipoteca,30,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-121,Alice Brown,hipoteca,25,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-121,John Doe,hipoteca,45,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-121,Jane Smith,hipoteca,40,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-121,Diana Prince,prestamo,45,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-121,Alice Brown,ahorro,45,8000.00,0.00500,40.00,8040.00,NO,
-122,Jane Smith,prestamo,25,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-122,Alice Brown,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-122,Bob Johnson,hipoteca,40,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-122,Sin identificar,ahorro,30,10000.00,0.00500,50.00,10050.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-122,Alice Brown,ahorro,30,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-122,Bob Johnson,ahorro,40,10000.00,0.00500,50.00,10050.00,NO,
-122,Steve Rogers,ahorro,40,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-122,Diana Prince,ahorro,35,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-122,Charlie Green,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+121,Jane Smith,hipoteca,40,12000.00,0.00900,108.00,12108.00,NO,
+121,Alice Brown,ahorro,45,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+121,Alice Brown,hipoteca,35,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+121,Alice Brown,hipoteca,25,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+121,Steve Rogers,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+121,John Doe,hipoteca,45,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 122,Diana Prince,ahorro,30,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+122,Bob Johnson,hipoteca,40,7000.00,0.00900,63.00,7063.00,NO,
+122,Jane Smith,prestamo,25,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+122,Sin identificar,ahorro,30,10000.00,0.00500,50.00,10050.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
+122,Diana Prince,ahorro,35,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+122,Alice Brown,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 122,Bob Johnson,ahorro,40,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 122,Sin identificar,prestamo,45,12000.00,0.01500,180.00,12180.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-123,John Doe,ahorro,25,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-123,Alice Brown,hipoteca,35,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-123,Bob Johnson,hipoteca,40,12000.00,0.00900,108.00,12108.00,NO,
-123,Bob Johnson,ahorro,25,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+122,Bob Johnson,ahorro,40,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+122,Alice Brown,ahorro,30,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+122,Steve Rogers,ahorro,40,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+122,Charlie Green,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 123,John Doe,prestamo,25,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-123,Diana Prince,ahorro,25,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-123,Bob Johnson,ahorro,45,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-123,Sin identificar,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 123,Steve Rogers,hipoteca,35,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-123,Alice Brown,ahorro,35,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+123,Alice Brown,hipoteca,35,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+123,Alice Brown,ahorro,35,7000.00,0.00500,35.00,7035.00,NO,
+123,Sin identificar,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+123,Bob Johnson,hipoteca,40,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+123,Diana Prince,ahorro,25,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+123,Bob Johnson,ahorro,45,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+123,John Doe,ahorro,25,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+123,Bob Johnson,ahorro,25,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+124,Diana Prince,ahorro,45,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+124,Bob Johnson,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+124,Jane Smith,prestamo,45,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 124,John Doe,prestamo,30,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+124,Bob Johnson,hipoteca,35,12000.00,0.00900,108.00,12108.00,NO,
 124,Steve Rogers,hipoteca,25,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 124,Sin identificar,hipoteca,35,12000.00,0.00900,108.00,12108.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-124,Bob Johnson,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-124,Jane Smith,prestamo,45,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-124,Diana Prince,ahorro,45,12000.00,0.00500,60.00,12060.00,NO,
-124,Bob Johnson,hipoteca,35,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 125,John Doe,prestamo,25,7000.00,0.01500,105.00,7105.00,NO,
 125,Diana Prince,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-126,Diana Prince,ahorro,45,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-126,Alice Brown,hipoteca,25,7000.00,0.00900,63.00,7063.00,NO,
 126,John Doe,ahorro,45,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-126,Bob Johnson,prestamo,35,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+126,Bob Johnson,prestamo,35,12000.00,0.01500,180.00,12180.00,NO,
+126,Alice Brown,hipoteca,25,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 126,Alice Brown,prestamo,40,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-126,Jane Smith,ahorro,40,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-127,Bob Johnson,ahorro,30,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+126,Diana Prince,ahorro,45,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+126,Jane Smith,ahorro,40,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+127,Steve Rogers,ahorro,45,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 127,Diana Prince,ahorro,30,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-127,Steve Rogers,ahorro,45,5000.00,0.00500,25.00,5025.00,NO,
-128,Diana Prince,ahorro,35,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-128,John Doe,ahorro,40,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+127,Bob Johnson,ahorro,30,5000.00,0.00500,25.00,5025.00,NO,
 128,Sin identificar,prestamo,30,10000.00,0.01500,150.00,10150.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-128,Diana Prince,prestamo,35,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-128,Diana Prince,ahorro,40,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 128,Jane Smith,ahorro,35,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-128,John Doe,prestamo,30,5000.00,0.01500,75.00,5075.00,NO,
-129,Jane Smith,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-129,Bob Johnson,prestamo,45,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-129,Steve Rogers,ahorro,45,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-129,Steve Rogers,ahorro,40,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-129,Alice Brown,ahorro,45,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-129,Steve Rogers,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-129,Steve Rogers,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-129,Sin identificar,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,Titular sin identificar en el archivo legacy
+128,John Doe,ahorro,40,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+128,Diana Prince,ahorro,40,8000.00,0.00500,40.00,8040.00,NO,
+128,John Doe,prestamo,30,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+128,Diana Prince,ahorro,35,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+128,Diana Prince,prestamo,35,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 129,Diana Prince,ahorro,45,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-130,Steve Rogers,hipoteca,45,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-130,Jane Smith,prestamo,45,10000.00,0.01500,150.00,10150.00,NO,
-130,Steve Rogers,prestamo,45,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-130,John Doe,prestamo,25,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-130,Diana Prince,hipoteca,45,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-130,Steve Rogers,ahorro,30,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-130,John Doe,hipoteca,35,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+129,Steve Rogers,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+129,Sin identificar,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
+129,Alice Brown,ahorro,45,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+129,Steve Rogers,prestamo,35,5000.00,0.01500,75.00,5075.00,NO,
+129,Bob Johnson,prestamo,45,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+129,Jane Smith,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+129,Steve Rogers,ahorro,45,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+129,Steve Rogers,ahorro,40,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 130,Jane Smith,prestamo,25,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-131,Alice Brown,ahorro,45,7000.00,0.00500,35.00,7035.00,NO,
-131,Diana Prince,hipoteca,45,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+130,John Doe,hipoteca,35,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+130,Steve Rogers,ahorro,30,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+130,John Doe,prestamo,25,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+130,Steve Rogers,hipoteca,45,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+130,Steve Rogers,prestamo,45,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+130,Diana Prince,hipoteca,45,12000.00,0.00900,108.00,12108.00,NO,
+130,Jane Smith,prestamo,45,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+131,Diana Prince,hipoteca,45,5000.00,0.00900,45.00,5045.00,NO,
+131,Alice Brown,ahorro,45,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+132,Bob Johnson,ahorro,25,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+132,John Doe,hipoteca,30,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+132,Diana Prince,hipoteca,45,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 132,John Doe,prestamo,45,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-132,Bob Johnson,ahorro,25,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-132,John Doe,hipoteca,30,7000.00,0.00900,63.00,7063.00,NO,
-132,Sin identificar,hipoteca,35,5000.00,0.00900,45.00,5045.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-132,Diana Prince,hipoteca,45,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 132,Steve Rogers,hipoteca,45,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 132,Sin identificar,hipoteca,30,10000.00,0.00900,90.00,10090.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-133,Alice Brown,hipoteca,35,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-133,Steve Rogers,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-133,Alice Brown,ahorro,30,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-133,Jane Smith,ahorro,45,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-133,Alice Brown,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-133,Diana Prince,prestamo,40,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-133,Alice Brown,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-133,Steve Rogers,hipoteca,25,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+132,Sin identificar,hipoteca,35,5000.00,0.00900,45.00,5045.00,SI,Titular sin identificar en el archivo legacy
 133,Jane Smith,prestamo,25,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-133,Steve Rogers,prestamo,25,10000.00,0.01500,150.00,10150.00,NO,
+133,Steve Rogers,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+133,Alice Brown,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+133,Steve Rogers,prestamo,40,12000.00,0.01500,180.00,12180.00,NO,
+133,Diana Prince,prestamo,40,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+133,Steve Rogers,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+133,Alice Brown,ahorro,30,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 133,Steve Rogers,prestamo,45,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-133,Steve Rogers,prestamo,40,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-134,Bob Johnson,prestamo,25,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-134,Alice Brown,prestamo,30,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-134,Bob Johnson,hipoteca,30,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-134,Charlie Green,hipoteca,45,7000.00,0.00900,63.00,7063.00,NO,
-134,Diana Prince,prestamo,40,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-134,Diana Prince,prestamo,35,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-134,Sin identificar,ahorro,45,7000.00,0.00500,35.00,7035.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
+133,Alice Brown,hipoteca,35,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+133,Steve Rogers,hipoteca,25,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+133,Jane Smith,ahorro,45,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+133,Alice Brown,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 134,Diana Prince,ahorro,30,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-134,Bob Johnson,hipoteca,35,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+134,Bob Johnson,prestamo,25,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+134,Bob Johnson,hipoteca,30,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 134,Charlie Green,prestamo,45,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-135,Diana Prince,prestamo,40,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-135,John Doe,prestamo,40,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-135,Sin identificar,ahorro,45,10000.00,0.00500,50.00,10050.00,SI,Titular sin identificar en el archivo legacy
+134,Charlie Green,hipoteca,45,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+134,Bob Johnson,hipoteca,35,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+134,Alice Brown,prestamo,30,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+134,Sin identificar,ahorro,45,7000.00,0.00500,35.00,7035.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
+134,Diana Prince,prestamo,35,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+134,Diana Prince,prestamo,40,12000.00,0.01500,180.00,12180.00,NO,
+135,Diana Prince,prestamo,40,8000.00,0.01500,120.00,8120.00,SI,Titular repetido con los mismos datos en otra cuenta
+135,Sin identificar,ahorro,45,10000.00,0.00500,50.00,10050.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
 135,Steve Rogers,ahorro,25,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-135,Bob Johnson,prestamo,30,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 135,Alice Brown,prestamo,45,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-136,Alice Brown,prestamo,25,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-136,John Doe,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+135,Bob Johnson,prestamo,30,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+135,John Doe,prestamo,40,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+136,John Doe,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 136,Diana Prince,prestamo,40,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-136,Steve Rogers,hipoteca,40,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 136,Jane Smith,ahorro,40,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-136,Alice Brown,hipoteca,35,8000.00,0.00900,72.00,8072.00,NO,
+136,Steve Rogers,hipoteca,40,5000.00,0.00900,45.00,5045.00,NO,
+136,Alice Brown,hipoteca,35,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+136,Alice Brown,prestamo,25,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 137,Jane Smith,hipoteca,45,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-137,Steve Rogers,ahorro,30,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-137,Charlie Green,hipoteca,40,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-137,Alice Brown,ahorro,40,7000.00,0.00500,35.00,7035.00,NO,
-138,Jane Smith,ahorro,45,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-138,Diana Prince,ahorro,40,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-138,Jane Smith,prestamo,45,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+137,Steve Rogers,ahorro,30,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+137,Charlie Green,hipoteca,40,5000.00,0.00900,45.00,5045.00,NO,
+137,Alice Brown,ahorro,40,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 138,Alice Brown,ahorro,30,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+138,Jane Smith,prestamo,45,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 138,Jane Smith,prestamo,30,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 138,Alice Brown,prestamo,45,8000.00,0.01500,120.00,8120.00,SI,Titular repetido con los mismos datos en otra cuenta
+138,Diana Prince,ahorro,40,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+138,Jane Smith,ahorro,45,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+139,Jane Smith,hipoteca,45,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 139,Charlie Green,ahorro,40,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 139,John Doe,ahorro,35,10000.00,0.00500,50.00,10050.00,NO,
-139,Jane Smith,hipoteca,45,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-140,Steve Rogers,ahorro,40,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+140,Alice Brown,ahorro,25,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+140,John Doe,ahorro,30,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+140,John Doe,prestamo,30,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+140,Alice Brown,ahorro,40,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 140,Jane Smith,hipoteca,30,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 140,Alice Brown,prestamo,35,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-140,Jane Smith,prestamo,25,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-140,Charlie Green,prestamo,30,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-140,Alice Brown,ahorro,25,5000.00,0.00500,25.00,5025.00,NO,
+140,Steve Rogers,ahorro,40,7000.00,0.00500,35.00,7035.00,NO,
 140,Sin identificar,hipoteca,40,12000.00,0.00900,108.00,12108.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-140,John Doe,ahorro,30,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-140,Alice Brown,ahorro,40,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-140,John Doe,prestamo,30,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-141,Steve Rogers,ahorro,35,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-141,Jane Smith,prestamo,30,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-141,Bob Johnson,prestamo,40,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+140,Charlie Green,prestamo,30,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+140,Jane Smith,prestamo,25,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+141,John Doe,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 141,Alice Brown,prestamo,25,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-141,Charlie Green,hipoteca,35,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-141,John Doe,ahorro,25,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-141,John Doe,prestamo,35,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-141,Bob Johnson,prestamo,30,8000.00,0.01500,120.00,8120.00,NO,
+141,Steve Rogers,ahorro,35,8000.00,0.00500,40.00,8040.00,NO,
+141,Bob Johnson,prestamo,40,5000.00,0.01500,75.00,5075.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 141,Steve Rogers,hipoteca,45,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-142,Alice Brown,ahorro,25,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+141,John Doe,ahorro,25,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+141,Charlie Green,hipoteca,35,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+141,Jane Smith,prestamo,30,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+141,Bob Johnson,prestamo,30,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 142,Jane Smith,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-142,Sin identificar,hipoteca,45,7000.00,0.00900,63.00,7063.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-142,Bob Johnson,ahorro,25,7000.00,0.00500,35.00,7035.00,NO,
-143,Jane Smith,hipoteca,40,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-143,Alice Brown,ahorro,40,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+142,Sin identificar,hipoteca,45,7000.00,0.00900,63.00,7063.00,SI,Titular sin identificar en el archivo legacy
+142,Alice Brown,ahorro,25,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+142,Bob Johnson,ahorro,25,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+143,Steve Rogers,prestamo,40,8000.00,0.01500,120.00,8120.00,NO,
+143,Bob Johnson,ahorro,30,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 143,Steve Rogers,ahorro,30,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-143,Charlie Green,hipoteca,40,5000.00,0.00900,45.00,5045.00,NO,
 143,John Doe,prestamo,35,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-143,Steve Rogers,prestamo,40,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-143,Bob Johnson,ahorro,30,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-144,Alice Brown,ahorro,45,10000.00,0.00500,50.00,10050.00,NO,
+143,Jane Smith,hipoteca,40,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+143,Charlie Green,hipoteca,40,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+143,Alice Brown,ahorro,40,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+144,Alice Brown,hipoteca,30,8000.00,0.00900,72.00,8072.00,NO,
 144,Alice Brown,ahorro,45,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+144,Alice Brown,ahorro,45,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 144,John Doe,ahorro,45,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-144,Alice Brown,hipoteca,30,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+145,Diana Prince,prestamo,45,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 145,John Doe,hipoteca,35,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 145,Bob Johnson,hipoteca,35,12000.00,0.00900,108.00,12108.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-145,Diana Prince,prestamo,45,7000.00,0.01500,105.00,7105.00,NO,
-145,Diana Prince,prestamo,35,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-145,Steve Rogers,ahorro,30,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+145,Steve Rogers,ahorro,30,12000.00,0.00500,60.00,12060.00,SI,Titular repetido con los mismos datos en otra cuenta
+145,Diana Prince,prestamo,35,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+146,Sin identificar,hipoteca,25,12000.00,0.00900,108.00,12108.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
 146,Bob Johnson,hipoteca,40,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-146,Sin identificar,hipoteca,25,12000.00,0.00900,108.00,12108.00,SI,Titular sin identificar en el archivo legacy
-146,Charlie Green,ahorro,30,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+146,Charlie Green,ahorro,30,7000.00,0.00500,35.00,7035.00,NO,
 146,Charlie Green,ahorro,40,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 147,Charlie Green,prestamo,25,7000.00,0.01500,105.00,7105.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-147,Alice Brown,ahorro,40,12000.00,0.00500,60.00,12060.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 147,Steve Rogers,ahorro,30,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-147,Jane Smith,prestamo,25,12000.00,0.01500,180.00,12180.00,NO,
-147,Diana Prince,hipoteca,45,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-148,Diana Prince,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+147,Alice Brown,ahorro,40,12000.00,0.00500,60.00,12060.00,NO,
+147,Jane Smith,prestamo,25,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+147,Diana Prince,hipoteca,45,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 148,Jane Smith,ahorro,25,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-148,Bob Johnson,ahorro,30,7000.00,0.00500,35.00,7035.00,NO,
-149,Steve Rogers,prestamo,25,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-149,Charlie Green,prestamo,40,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+148,Bob Johnson,ahorro,30,7000.00,0.00500,35.00,7035.00,SI,Titular repetido con los mismos datos en otra cuenta
+148,Diana Prince,prestamo,25,10000.00,0.01500,150.00,10150.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 149,Diana Prince,hipoteca,25,5000.00,0.00900,45.00,5045.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-149,John Doe,ahorro,25,10000.00,0.00500,50.00,10050.00,NO,
-149,Bob Johnson,ahorro,45,5000.00,0.00500,25.00,5025.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-149,Bob Johnson,hipoteca,25,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+149,Charlie Green,prestamo,40,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
 149,Steve Rogers,ahorro,25,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+149,Bob Johnson,ahorro,45,5000.00,0.00500,25.00,5025.00,NO,
 149,Sin identificar,ahorro,40,8000.00,0.00500,40.00,8040.00,SI,Titular sin identificar en el archivo legacy; La cuenta aparece mas de una vez en el archivo con datos distintos
-150,Charlie Green,prestamo,40,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-150,Steve Rogers,hipoteca,30,7000.00,0.00900,63.00,7063.00,NO,
-150,Bob Johnson,ahorro,40,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
-150,Alice Brown,ahorro,35,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-150,Bob Johnson,hipoteca,35,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
-150,John Doe,ahorro,40,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+149,Bob Johnson,hipoteca,25,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+149,Steve Rogers,prestamo,25,8000.00,0.01500,120.00,8120.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+149,John Doe,ahorro,25,10000.00,0.00500,50.00,10050.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 150,Charlie Green,prestamo,45,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+150,Alice Brown,ahorro,35,7000.00,0.00500,35.00,7035.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta
+150,Charlie Green,prestamo,40,12000.00,0.01500,180.00,12180.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+150,John Doe,ahorro,40,7000.00,0.00500,35.00,7035.00,NO,
+150,Bob Johnson,ahorro,40,8000.00,0.00500,40.00,8040.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+150,Bob Johnson,hipoteca,35,10000.00,0.00900,90.00,10090.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
+150,Steve Rogers,hipoteca,30,7000.00,0.00900,63.00,7063.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos
 150,Bob Johnson,hipoteca,25,8000.00,0.00900,72.00,8072.00,SI,La cuenta aparece mas de una vez en el archivo con datos distintos; Titular repetido con los mismos datos en otra cuenta

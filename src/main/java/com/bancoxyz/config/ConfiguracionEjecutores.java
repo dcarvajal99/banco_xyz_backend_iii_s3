@@ -108,6 +108,15 @@ public class ConfiguracionEjecutores {
 
         log.info("Pool de particiones listo: {} hilos fijos para {} particiones, prefijo '{}'",
                 propiedades.getHilosDeParticiones(), propiedades.getParticiones(), "batch-particion-");
+        if (propiedades.getHilosDeParticiones() < propiedades.getParticiones()) {
+            // Es una configuracion valida —limita el consumo de recursos a proposito— pero hay
+            // que decirlo: quien compare tiempos sin saberlo creeria estar midiendo N particiones
+            // en paralelo cuando en realidad corren de a M.
+            log.warn("Hay mas particiones ({}) que hilos para ejecutarlas ({}): las sobrantes "
+                            + "esperan turno y el paralelismo efectivo es {}, no {}.",
+                    propiedades.getParticiones(), propiedades.getHilosDeParticiones(),
+                    propiedades.getHilosDeParticiones(), propiedades.getParticiones());
+        }
         return ejecutor;
     }
 

@@ -2,6 +2,7 @@ package com.bancoxyz.config;
 
 import com.bancoxyz.batch.decider.DecisorCalidadDeDatos;
 import com.bancoxyz.batch.listener.ResumenJobListener;
+import com.bancoxyz.batch.processor.RegistroDeDuplicados;
 import com.bancoxyz.common.Constantes;
 import org.springframework.batch.core.ExitStatus;
 import org.springframework.batch.core.Job;
@@ -57,6 +58,7 @@ public class MigracionCompletaJobConfig {
     @Bean
     public Job migracionCompletaJob(JobRepository jobRepository,
                                     ResumenJobListener resumenJobListener,
+                                    RegistroDeDuplicados registroDeDuplicados,
                                     DecisorCalidadDeDatos decisor,
                                     @Qualifier("ejecutorDeFlujos") ThreadPoolTaskExecutor ejecutorDeFlujos,
                                     @Qualifier(Constantes.STEP_LIMPIEZA) Step limpiezaDeReintentoStep,
@@ -106,6 +108,7 @@ public class MigracionCompletaJobConfig {
 
         return new JobBuilder(Constantes.JOB_MIGRACION_COMPLETA, jobRepository)
                 .listener(resumenJobListener)
+                .listener(registroDeDuplicados)
                 .start(flujoCierre)
                 .next(decisor)
                 .on(Constantes.CALIDAD_ACEPTABLE).to(flujoPublicacion)

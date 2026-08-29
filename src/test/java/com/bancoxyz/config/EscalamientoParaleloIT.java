@@ -41,12 +41,11 @@ import static org.assertj.core.api.Assertions.assertThat;
  * solo vea su tramo.</p>
  */
 @SpringBootTest
-// Se prueba con la configuracion que trae el proyecto por defecto —particionado en 4— y no con
+// Se prueba con la configuracion que trae el proyecto por defecto —particionado en 8— y no con
 // la del perfil general de pruebas, para que sea esta prueba la que garantice el requisito.
 @TestPropertySource(properties = {
         "banco.batch.estrategia=PARTICIONADO",
         "banco.batch.particiones=8",
-        "banco.batch.hilos-de-particiones=8",
         "banco.batch.tamano-chunk=5"
 })
 class EscalamientoParaleloIT {
@@ -240,7 +239,9 @@ class EscalamientoParaleloIT {
 
         assertThat(porDefecto.getEstrategia()).isEqualTo(EstrategiaDeEscalado.PARTICIONADO);
         assertThat(porDefecto.getParticiones()).isEqualTo(8);
-        assertThat(porDefecto.getHilosDeParticiones()).isEqualTo(8);
+        // Sin fijar hilos, siguen automaticamente al numero de particiones: es lo que evita
+        // que subir "particiones" deje tramos esperando turno sin que nada lo indique.
+        assertThat(porDefecto.getHilosDeParticiones()).isEqualTo(porDefecto.getParticiones());
     }
 
     private static BigDecimal sumaDeMontos(List<Transaccion> filas) {

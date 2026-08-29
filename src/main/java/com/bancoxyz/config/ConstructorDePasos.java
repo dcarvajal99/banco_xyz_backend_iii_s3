@@ -42,14 +42,20 @@ import org.springframework.transaction.PlatformTransactionManager;
  *   <tr><th>Estrategia</th><th>Forma del Step</th><th>Lector</th></tr>
  *   <tr><td>{@code SECUENCIAL}</td>
  *       <td>un Step de chunk, un hilo</td>
- *       <td>archivo completo, guarda su posicion</td></tr>
+ *       <td>archivo completo</td></tr>
  *   <tr><td>{@code MULTIHILO}</td>
  *       <td>un Step de chunk con {@code taskExecutor} de N hilos</td>
- *       <td>archivo completo, <b>sincronizado</b> y sin guardar posicion</td></tr>
+ *       <td>archivo completo, <b>sincronizado</b></td></tr>
  *   <tr><td>{@code PARTICIONADO}</td>
  *       <td>un Step gestor + N Steps trabajadores, uno por particion</td>
- *       <td>un lector por particion, con su rango y guardando posicion</td></tr>
+ *       <td>un lector por particion, acotado a su rango</td></tr>
  * </table>
+ *
+ * <p>Ninguna de las tres guarda la posicion del lector: la reanudacion se resuelve rehaciendo el
+ * paso sobre una base que {@code LimpiezaDeReintentoTasklet} dejo limpia. Ver el Javadoc de
+ * {@code LectoresCsv}, que explica por que las dos estrategias de reanudacion no son
+ * acumulables.</p>
+ *
  *
  * <h2>Donde van las politicas</h2>
  * <p>La omision, el reintento y el backoff se configuran en el Step <b>trabajador</b>, no en el

@@ -32,11 +32,18 @@ import java.nio.file.Path;
  * mitad; y apagar {@code saveState}, porque la posicion que guardaban los tres hilos dejaba de
  * representar un prefijo continuo del archivo.</p>
  *
- * <p>El particionado de la semana 3 <b>deshace las dos concesiones</b>. Cada particion es un
- * Step independiente con su propio lector, que recorre su tramo con un solo hilo: no hay nada
- * que sincronizar y la posicion vuelve a significar exactamente lo que dice. De ahi que el
- * lector se construya con un rango y con {@code guardarEstado} activable: al reanudar, cada
- * particion retoma <em>desde donde quedo</em> en vez de rehacer el archivo entero.</p>
+ * <p>El particionado de la semana 3 <b>deshace la primera</b>: cada particion es un Step
+ * independiente con su propio lector, que recorre su tramo con un solo hilo, asi que no hay nada
+ * que sincronizar. De ahi que el lector se construya con un rango.</p>
+ *
+ * <p>La segunda <b>se mantiene</b>, y por una razon distinta de la que la motivo. Tecnicamente
+ * el lector de una particion ya podria volver a guardar su posicion; lo que lo impide es el
+ * modelo de reanudacion que este proyecto eligio: al reanudar, {@code LimpiezaDeReintentoTasklet}
+ * borra lo que dejo el intento anterior y las particiones se rehacen completas sobre una base
+ * limpia. Si ademas el lector retomara desde su ultima posicion, se saltaria justo las filas que
+ * la limpieza acaba de borrar. Guardar la posicion y rehacer el paso son estrategias de
+ * reanudacion <em>alternativas</em>, no acumulables; mezclarlas produce perdida silenciosa de
+ * datos. Por eso {@code saveState} queda en {@code false} para las tres estrategias.</p>
  */
 public final class LectoresCsv {
 
@@ -49,9 +56,6 @@ public final class LectoresCsv {
      *
      * @param inicio primera fila de datos, base 0 y sin contar la cabecera
      * @param fin fila siguiente a la ultima (limite superior exclusivo)
-     * @param guardarEstado si el lector puede persistir su posicion para reanudar. Solo tiene
-     *        sentido cuando un unico hilo recorre este lector, que es el caso de una particion
-     *        y el de una corrida secuencial, pero no el de un Step multihilo.
      */
     public record Rango(long inicio, long fin) {
 
