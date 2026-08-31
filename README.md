@@ -30,7 +30,8 @@ reparte, y desaparece la contención sobre el candado que con tres hilos era un 
 el camino crítico.
 
 El detalle completo de la medición —12 configuraciones, 10 repeticiones cada una, todas las
-muestras publicadas— está en `evidencias/logs/09_medicion_estrategias.log` y se resume en §5.
+muestras publicadas— está en `evidencias/logs/09_medicion_estrategias.log` (carpeta que viaja en
+el ZIP de la entrega, no en este repositorio: ver §12) y se resume en §5.
 
 ---
 
@@ -426,11 +427,17 @@ banco-xyz-batch/
 ├── src/main/java/            Código de la migración
 ├── src/test/java/            140 pruebas
 ├── salida/                   CSV generados + aviso de cuarentena
-└── evidencias/
+└── evidencias/               (no versionada — ver la nota de abajo)
     ├── logs/                 14 archivos: 11 corridas, la medición, la comparación y el SQL
     ├── img/                  26 capturas
     └── consultas_evidencia.sql
 ```
+
+> **Las evidencias no están en este repositorio.** Pesan 12 MB, no son código y se regeneran
+> volviendo a ejecutar los Jobs, así que quedan fuera del control de versiones (`.gitignore`).
+> Viajan completas en el ZIP que se entrega en el AVA, que es donde el evaluador las encuentra.
+> Las referencias a `evidencias/logs/...` que aparecen en este README y en algún comentario del
+> código apuntan a esa carpeta.
 
 ---
 
