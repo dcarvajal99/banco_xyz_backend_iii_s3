@@ -15,6 +15,11 @@ target/
 # Sistema operativo
 .DS_Store
 
-# Logs de build (la evidencia de ejecucion SI se versiona: es entregable de la actividad)
+# Logs de build
 *.log
-!evidencias/logs/*.log
+
+# Evidencias de ejecucion (capturas y logs de las corridas).
+# NO se versionan: son el respaldo que acompana a la entrega en el AVA, pesan 12 MB y se
+# regeneran corriendo los Jobs. El repositorio guarda el codigo; las evidencias viajan en
+# el ZIP de la actividad.
+evidencias/
